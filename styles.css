@@ -1,0 +1,93 @@
+/* Reselt default styles */
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+ font-family: Arial, sans-serrif;
+ background-color: #f5f5f5;
+}
+
+/* Container styles */
+.continer {
+ max-width: 400px;
+ margin: 0 auto;
+ padding: 20px;
+}
+
+/* Logo styles */
+.logo {
+ display: block;
+ width: 100px;
+ height: auto;
+ margin: 0 auto 0px;
+}
+
+/* Welcome message styles */
+.welcome-messsage {
+ text-align: center;
+ font-size: 20px;
+ margin-bottom: 20px;
+
+}
+
+/* Forms styles */
+.form-group {
+ margin-bottom: 20px;
+}
+label {
+ display: block;
+ font-size: 16px;
+ font-weight: bold;
+ margin-bottom: 10px;
+}
+
+input[type= "text"],
+input[type= "password"] {
+ width: 100%;
+ padding: 10px;
+ font-size: 14px;
+ border-radius: 5px;
+ border: 1px solid #ccc;
+}
+
+/* Options styles */
+.options {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ margin-bottom: 20px;
+}
+
+.forgot-password,
+.sign-in{
+ font-size: 14px;
+ color: #555;
+ text-decoration: none;
+}
+
+.sign-in{
+ padding: 10px 20px;
+ background-color: #337ab7;
+ color: #fff;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+}
+
+/* SignUp link styles */
+.signup-link {
+ text-align: center;
+ font-size: 14px;
+}
+.signup-link a {
+ color: #337ab7;
+ text-decoration: none;
+}
+
+.signup-link a  hover {
+ text-decoration: unserline;
+}
